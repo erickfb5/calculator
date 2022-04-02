@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.App {
+  text-align: center;
+}
+
+.container{  
+  padding-top:150px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "dis dis dis dis"
+  "AC C div times"
+  "seven eight nine minus"
+  "four five six plus"
+  "one two three equal"
+  "zero zero dot equal"
+}
+
+.padButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 25px;
+  background-color: gray;
+  color: aliceblue;
+  border: 1px solid rgb(54, 54, 64);
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.opacity
+{opacity: 0.75;}
+
+
+.padButton:hover{
+  background-color: rgba(128, 128, 128, 0.784);
+}
+
+
+.dark-gray{
+  background-color: rgba(52, 52, 52, 0.877);
+}
+
+.dark-gray:hover{
+  background-color: rgba(52, 52, 52, 0.775);
+}
+
+.tomato{
+  background-color: rgba(241, 52, 18, 0.836);
+}
+
+.tomato:hover{
+  background-color: rgba(241, 52, 18, 0.653);
+}
+
+
+.dis{
+  grid-area: dis;
+  background-color: rgb(41, 41, 47);
+  text-align: right;
+  font-size: 20px;
+  
+}
+
+.dis input{
+  background-color: rgb(41, 41, 47);
+  color: lightgrey;
+  text-align: right;
+  width: 100%;
+  padding-right: 10px;
+  font-family: 'Aclonica', sans-serif;
+  letter-spacing: 1px;
+  
+  
+}
+
+.dis input::placeholder {
+  color: lightgrey;
+}
+
+.total{
+  padding: 5px 10px;
+  color: lightcyan;
+  font-size: 25px;
+  font-family: 'Aclonica', sans-serif;
+  letter-spacing: 2px;
+}
+.zero{
+  grid-area: zero;
+}
+
+.equal{
+  grid-area: equal;
+  background-color: rgba(13, 69, 167, 0.925);
+}
+
+.equal:hover{
+  background-color: rgba(13, 69, 167, 0.766);
+}
+
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(72, 129, 129);
+    --primary-color-darker: rgb(5, 58, 58);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imc-left{
+    text-align: left;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20 px;
+}
+
+form input:focus{
+    outline: 1.5px solid var(--primary-color);
+}"
+
+
+
+.calculadora {
+
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: rgba(161, 156, 156, 0.63);
+    cursor: pointer;
+}  
+
+.btn:hover {
+    
+    background-color: rgba(219, 213, 213, 0.363);
+    
+}   */
